@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Product from "../Components/auth/Product";
+import Product from "../Components/auth/myproducts";
 
 export default function MyProducts() {
     const [products, setProducts] = useState([]);
