@@ -263,6 +263,32 @@ In this milestone, we will create a backend endpoint to retrieve all products in
 
 This milestone focuses on implementing backend logic to retrieve cart items efficiently.
 
+### Welcome to Milestone 19! 🌟
 
+Today, we will create an frontend page UI for cart and write an endpoint to increase and decrease the quantity of product inside cart;
 
+Learning Goals 🎯
+By the end of this milestone, you will:
 
+Create an cart page that display the products inside cart using endpoint we build in milestone 18.
+For each product add an option to increase and decrease quantity using + and - buttons.
+Write an endpoint to increase and decrease the quantity
+Steps for Milestone 19📝
+create cart frontend page and display the products
+For each product add an option to increase and decrease quantity using + and - buttons.
+Create an Backend endpoint for increase and decrease quantity
+### Welcome to Milestone 20!
+
+Learning Goals 🎯
+By the end of this milestone, you will:
+
+Create and backend endpoint that will send all the user data using mail.
+Create an frontend profile page that will display all the user data
+display profile photo, name, mail and addresses.
+Steps for Milestone 20📝
+Create an Backend endpoint that will sent user data
+create frontend profile page
+display profile photo, name and email in one section
+In another section display address and add an button called "Add address"
+If there are no address display "No address found"
+This lesson will help you in understanding how to display profile page.
