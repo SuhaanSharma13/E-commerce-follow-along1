@@ -49,16 +49,14 @@ const Signup = () => {
  // Axios request to backend
  axios
  .post("http://localhost:8000/api/v2/user/create-user", newForm, config)
- .then((response) => {
-   console.log("User created:", response.data);
+ .then((res) => {
+   alert("User created successfully!"); // Success message from server
+   console.log(res.data); // Success response from server
  })
  .catch((err) => {
-   console.error(
-     err.response?.data || err.message || "An unknown error occurred"
-   );
+   alert(err.response ? err.response.data.message : err.message); // Error message from server
+   console.error(err.response ? err.response.data : err.message); // Error handling
  });
-
-
 };
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
