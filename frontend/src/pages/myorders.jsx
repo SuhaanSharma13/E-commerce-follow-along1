@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
  import axios from 'axios';
- import NavBar from '../components/auth/nav'
+ import NavBar from '../Components/auth/nav'
  
  const MyOrdersPage = () => {
      const [orders, setOrders] = useState([]);
