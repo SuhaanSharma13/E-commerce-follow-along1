@@ -1,7 +1,7 @@
 // OrderConfirmation.jsx
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import NavBar from '../Components/auth/nav';
+import NavBar from '../components/auth/nav';
 import { useLocation, useNavigate } from 'react-router-dom';
 // 1) Import PayPalScriptProvider & PayPalButtons
 import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
@@ -205,7 +205,7 @@ const OrderConfirmation = () => {
                              <div className='mt-4' style={{ maxWidth: '500px' }}>
                                  <PayPalScriptProvider
                                      options={{
-                                         'client-id': 'AZHCcGSPdp4-KNZAw5Fsnjdi-a6un2qExBPT-YoquBVWVeAua9Neonh4m6o02I9-avB3vdXTz80aN7Gb', 
+                                         'client-id': import.meta.env.VITE_CLIENT_ID, 
                                      }}
                                  >
                                      <PayPalButtons
